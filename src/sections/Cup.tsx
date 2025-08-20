@@ -1,3 +1,4 @@
+import CupExperience from '../components/CupScene/CupExperience';
 import { words } from '../constants';
 
 const Cup = () => {
@@ -36,6 +37,11 @@ const Cup = () => {
                         </div>
                     </div>
                 </header>
+                <figure>
+                    <div className="cup-3d-layout">
+                        <CupExperience />
+                    </div>
+                </figure>
             </div>
         </section>
     );
