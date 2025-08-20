@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -9,10 +9,10 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: black;
-  color: white;
+  background-color: rgb(22, 16, 16);
+  color: rgb(247, 248, 238);
   scroll-behavior: smooth;
-  font-family: "Mona Sans", sans-serif;
+  font-family: "Comfortaa";
 }
 
 section {
@@ -20,7 +20,7 @@ section {
 }
 
 @theme {
-  --font-sans: "Mona Sans", sans-serif;
+  --font-sans: "Comformata", sans-serif;
   --color-white-50: #d9ecff;
   --color-black-50: #1c1c21;
   --color-black-100: #0e0e10;
@@ -80,11 +80,11 @@ section {
     @apply grid grid-cols-1 xl:grid-cols-12 gap-10;
   }
 
-  .hero-layout {
+  .cup-layout {
     @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
   }
 
-  .hero-text {
+  .cup-text {
     @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none;
     img {
       @apply size-8 md:size-10 object-contain;
@@ -94,11 +94,11 @@ section {
     }
   }
 
-  .hero-badge {
+  .cup-badge {
     @apply bg-black-200 py-2 px-4 rounded-full w-fit text-sm md:text-base text-nowrap;
   }
 
-  .hero-3d-layout {
+  .cup-3d-layout {
     @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
   }
 
@@ -322,7 +322,7 @@ section {
   }
 }
 
-/* Hero text slider starts */
+/* Cup text slider starts */
 .slide {
   display: inline-block;
   flex-direction: column;
@@ -362,7 +362,7 @@ section {
   }
 }
 
-/* Hero Text slider ends */
+/* Cup Text slider ends */
 
 .gradient-line {
   width: 2px;
