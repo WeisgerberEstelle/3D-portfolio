@@ -13,7 +13,7 @@ const Cup = () => {
                         <div className="cup-text">
                             <h1>
                                 Customize
-                                <h1>
+                                <p>
                                     your cup with
                                     <span className="slide">
                                         <span className="wrapper">
@@ -29,7 +29,7 @@ const Cup = () => {
                                             ))}
                                         </span>
                                     </span>
-                                </h1>
+                                </p>
                             </h1>
                             <p className="md:text-xl relative z-10 pointer-events-none">
                                 Try the real time 3D customizer!
